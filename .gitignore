@@ -1,0 +1,68 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+myenv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Dataset files - keep local, but keep data/README.md
+/data/*
+!/data/README.md
+cifar-10-batches-py/
+cifar-10-python.tar.gz
+engine/datasets/
+datasets/
+
+# Archives
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+*.tgz
+
+# Generated outputs / experiment artifacts
+outputs/
+results/
+runs/
+logs/
+artifacts/
+figures/
+plots/
+wandb/
+mlruns/
+
+# Model checkpoints / trained weights
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.pkl
+*.pickle
+*.joblib
+models/
+checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+Desktop.ini
+
+# IDE files
+.vscode/
+.idea/
