@@ -1,0 +1,14 @@
+numpy
+matplotlib
+scikit-learn
+pillow
+imageio
+six
+future
+torch
+torchvision
+timm
+tqdm
+pandas
+jupyter
+ipython
