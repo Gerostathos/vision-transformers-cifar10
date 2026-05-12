@@ -259,15 +259,4 @@ These values come from the saved notebook outputs and may vary with random seeds
 - The CIFAR-10 dataset and generated model checkpoints are intentionally excluded from GitHub.
 - Some notebooks contain saved outputs from previous runs. Re-running the notebooks may produce slightly different results.
 
----
 
-## Possible Future Improvements
-
-Possible extensions include:
-
-- standardizing all notebooks to use repository-relative paths,
-- adding a small configuration file for dataset paths and training settings,
-- moving repeated PyTorch training utilities into reusable scripts,
-- adding seed control for more reproducible experiments,
-- saving selected result tables in a lightweight `results/` folder,
-- adding a short project report summarizing the progression from classical methods to transformers.
